@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Travel Agency Management System – Premium Edition</title>
+
+  <!-- Poppins font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Animated background particles -->
+  <div class="particles">
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+  </div>
+
+  <!-- HEADER -->
+  <header>
+    <div class="wrap">
+      <div class="brand" onclick="location.hash='#home'">
+        <div class="logo"></div>
+        <div>
+          <h1>Travel Agency</h1>
+          <div class="tagline">Plan • Book • Explore</div>
+        </div>
+      </div>
+
+      <nav id="main-nav">
+        <a href="#home" data-route="home" class="nav-link active">
+          <span class="nav-icon">🏠</span>
+          <span>Home</span>
+        </a>
+        <a href="#tours" data-route="tours" class="nav-link">
+          <span class="nav-icon">🗺️</span>
+          <span>Tours</span>
+        </a>
+        <a href="#flights" data-route="flights" class="nav-link">
+          <span class="nav-icon">✈️</span>
+          <span>Flights</span>
+        </a>
+        <a href="#hotels" data-route="hotels" class="nav-link">
+          <span class="nav-icon">🏨</span>
+          <span>Hotels</span>
+        </a>
+        <a href="#booking" data-route="booking" class="nav-link">
+          <span class="nav-icon">📝</span>
+          <span>Booking</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- APP CONTAINER -->
+  <div class="container" id="app"></div>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Travel Agency</h3>
+        <p>Making your travel dreams come true since 2020</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <a href="#tours">Tours</a>
+        <a href="#flights">Flights</a>
+        <a href="#hotels">Hotels</a>
+      </div>
+      <div class="footer-section">
+        <h4>Contact</h4>
+        <p>📧 info@travelagency.com</p>
+        <p>📞 +91 98765 43210</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; <span id="year"></span> Travel Agency Management System. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- Link to external JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
