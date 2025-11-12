@@ -8,7 +8,7 @@ It helps travel agencies organize destinations, packages, customers, and payment
 ## 🧩 Tech Stack  
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend:** Node.js, Express.js  
-- **Database:** MongoDB / Supabase  
+- **Database:** SQL / Supabase  
 - **Version Control:** Git & GitHub  
 
 ---
@@ -35,3 +35,4 @@ npm install
 
 Start the server:
 node server.js
+
