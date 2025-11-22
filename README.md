@@ -1,11 +1,11 @@
-# 🌍 Travel Agency Management System  
+#  Travel Agency Management System  
 
 A full-stack web application designed to manage and simplify the travel booking process.  
 It helps travel agencies organize destinations, packages, customers, and payments efficiently — all through a modern and responsive interface.  
 
 ---
 
-## 🧩 Tech Stack  
+##  Tech Stack  
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend:** Node.js, Express.js  
 - **Database:** SQL / Supabase  
@@ -13,7 +13,7 @@ It helps travel agencies organize destinations, packages, customers, and payment
 
 ---
 
-## ⚙️ Features  
+##  Features  
 - Manage destinations and travel packages  
 - Handle customer and employee records  
 - Track payments and bookings  
@@ -22,7 +22,7 @@ It helps travel agencies organize destinations, packages, customers, and payment
 
 ---
 
-## 🚀 Setup Instructions  
+##  Setup Instructions  
 
 ### 1️⃣ Clone the Repository  
 ```bash
@@ -35,4 +35,5 @@ npm install
 
 Start the server:
 node server.js
+
 
